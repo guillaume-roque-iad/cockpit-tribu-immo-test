@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import worker,{publicURL,extract} from './worker.mjs';
+for(const url of ['http://example.com','https://127.0.0.1','https://[::1]','https://user:pass@example.com','https://localhost','https://x.internal'])assert.throws(()=>publicURL(url));
+const html='<script type="application/ld+json">'+JSON.stringify({'@type':'House',name:'Maison test',address:{addressLocality:'Narbonne'},offers:{price:'250000'},url:'/vente/maison'})+'</script><a href="/vente/maison">Voir</a><a href="https://other.com/vente/test">Autre</a>';
+const data=extract(html,'https://example.com/');assert.equal(data.listings.length,1);assert.equal(data.listings[0].price,250000);assert.equal(data.listings[0].address,'Narbonne');assert.equal(data.links.length,1);
+assert.equal(extract('<script type="application/ld+json">{broken}</script>','https://example.com').listings.length,0);
+globalThis.fetch=async()=>new Response(html,{headers:{'Content-Type':'text/html'}});
+const request=new Request('https://cockpit.example/api/import-site',{method:'POST',headers:{Origin:'https://cockpit.example'},body:JSON.stringify({url:'https://example.com'})});
+const response=await worker.fetch(request,{});assert.equal(response.status,200);assert.equal((await response.json()).listings.length,1);
+assert.equal((await worker.fetch(new Request('https://cockpit.example/api/import-site',{method:'POST',body:'{}'}),{})).status,403);
+console.log('PASS: extraction, duplicate removal, URL restrictions, malformed data and API origin checks');

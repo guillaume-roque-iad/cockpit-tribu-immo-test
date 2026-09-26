@@ -11,3 +11,9 @@ Questionnaire et PDF conservés ; les PDF portent une mention TEST.
 Analyse IA et contrôle automatique des gels indisponibles et explicitement signalés. Le registre officiel reste accessible pour consultation manuelle.
 Utiliser uniquement des données et pièces fictives. Aucune connexion à Firebase ou aux dossiers réels LAB-FT.
 Les vendeurs du Cockpit restent temporaires en mémoire.
+
+## Import de biens depuis le site du conseiller
+Accueil → Lien de mon site → Rechercher mes biens → vérifier et sélectionner → créer.
+Worker `/api/import-site` : HTML public HTTPS, JSON-LD immobilier, liens du même domaine, 9 pages maximum / 60 résultats. Aucune connexion ni contournement des sites protégés ; pas de rendu JavaScript. Les résultats ne garantissent pas un inventaire exhaustif ni l'appartenance au conseiller. Les redirections nécessitent l'adresse finale.
+Dossiers sélectionnés persistés en localStorage, clé `tribu-cockpit-site-import-test-v1`, sans données vendeur déduites. Édition/suppression également enregistrées ; pas de synchronisation entre appareils. Aucune écriture en production.
+Vérification : `node import-check.mjs`.
