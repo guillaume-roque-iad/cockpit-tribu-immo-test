@@ -1,0 +1,5 @@
+import {z} from 'zod';
+import {partyFields,operationFields} from './model';
+export const documentCategories=['Pièce d’identité','Justificatif de domicile','Justificatif de revenus','Extrait Kbis','Statuts','Comptes certifiés','Registre des bénéficiaires effectifs','Preuve de contrôle des gels','Autre'] as const;
+export const extractionSchema=z.object({category:z.enum(documentCategories),scope:z.enum(['identity','operation']),kind:z.enum(['Personne physique','Personne morale']),suggestedParty:z.string().max(100).default(''),note:z.string().max(1500).default(''),fields:z.array(z.object({key:z.string(),value:z.string().max(4000),evidence:z.string().min(1).max(1500),page:z.union([z.string(),z.number()]).transform(String)})).max(35)}).superRefine((x,ctx)=>{const allowed=x.scope==='operation'?operationFields:partyFields;for(const f of x.fields)if(!Object.hasOwn(allowed,f.key))ctx.addIssue({code:'custom',message:'Champ inconnu'});if(new Set(x.fields.map(f=>f.key)).size!==x.fields.length)ctx.addIssue({code:'custom',message:'Champ dupliqué'})});
+export function extractionLabels(scope:string){return scope==='operation'?operationFields:partyFields}

@@ -1,0 +1,443 @@
+[
+  {
+    "id": "10",
+    "group": "Client Vendeur - Personne Physique",
+    "text": "Vous avez des difficultés pour identifier le vendeur de l'opération envisagée",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France."
+  },
+  {
+    "id": "11",
+    "group": "Client Vendeur - Personne Physique",
+    "text": "Vous avez des difficultés pour identifier le ou les bénéficiaires réels de l'opération",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "12",
+    "group": "Client Vendeur - Personne Physique",
+    "text": "Le vendeur fait l'objet d'une mesure de gel des avoirs",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France"
+  },
+  {
+    "id": "13",
+    "group": "Client Vendeur - Personne Physique",
+    "text": "Le vendeur réside dans un pays situé en zone de guerre ou figurant sur liste noire du GAFI (voir Annexe 4 du Livret des bonnes pratiques LAB/FT). ",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France"
+  },
+  {
+    "id": "14",
+    "group": "Client Vendeur - Personne Physique",
+    "text": "Le vendeur réside dans un pays figurant sur liste grise du GAFI (voir Annexe 4 du Livret des bonnes pratiques LAB/FT)",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "15",
+    "group": "Client Vendeur - Personne Physique",
+    "text": "Le vendeur réside dans un pays à fiscalité privilégiée (ex. Suisse, Lischtenstien...).",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "16",
+    "group": "Client Vendeur - Personne Physique",
+    "text": "Le vendeur exerce une activité dans un secteur d'activité réputé à risque (BTP, sociétés de surveillance, formation professionnelle, secteur hôtelier, restauration rapide, cartes prépayées, rénovation énergétique, dépannage à domicile, cryptomonnaie....)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "17",
+    "group": "Client Vendeur - Personne Physique",
+    "text": "Vous n'avez jamais vu physiquement le vendeur aux fins de l’identifier",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "18",
+    "group": "Client Vendeur - Personne Physique",
+    "text": "Le vendeur est représenté par un tiers sans détenir de pouvoir ni de copie de la pièce d'identité de l'acquéreur ou du vendeur",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "19",
+    "group": "Client Vendeur - Personne Physique",
+    "text": "Il existe des liens entre l'acquéreur et le vendeur (parenté, amical, professionnel etc.)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "20",
+    "group": "Client Vendeur - Personne Physique",
+    "text": "Le vendeur est une personne politiquement exposée (PPE), qu'elle ait été en fonction ou qu'elle le soit",
+    "score": 2,
+    "advice": ""
+  },
+  {
+    "id": "24",
+    "group": "Client Vendeur - Personne Morale",
+    "text": "Vous avez des difficultés pour identifier le/les Bénéficiaire(s) Effectif(s)",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "25",
+    "group": "Client Vendeur - Personne Morale",
+    "text": "Vous avez des difficultés pour identifier le ou les bénéficiaires réels de l'opération",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "26",
+    "group": "Client Vendeur - Personne Morale",
+    "text": "Vous avez des difficultés pour identifier le représentant légal de la persone morale (acquéreur ou vendeur)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "27",
+    "group": "Client Vendeur - Personne Morale",
+    "text": "Le représentant légal ou au moins l'un des Bénéficiaire Effectif fait l'objet d'une mesure de gel des avoirs",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France"
+  },
+  {
+    "id": "28",
+    "group": "Client Vendeur - Personne Morale",
+    "text": "La personne morale, son représentant légal et/ou le/les Bénéficiaire(s) Effectif(s) résident dans un pays situé en zone de guerre ou figurant sur liste  noire  du GAFI (voir Annexe 4 du Livret des bonnes pratiques LAB/FT). ",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France"
+  },
+  {
+    "id": "29",
+    "group": "Client Vendeur - Personne Morale",
+    "text": "La personne morale, son représentant légal et/ou le/les Bénéficiaire(s) Effectif(s) résident dans un pays figurant sur liste grise du GAFI (voir Annexe 4 du Livret des bonnes pratiques LAB/FT)",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "30",
+    "group": "Client Vendeur - Personne Morale",
+    "text": "La personne morale, son représentant légal et/ou le/les Bénéficiaire(s) Effectif(s) résident dans un pays à fiscalité privilégiée (ex. Suisse, Lischtenstien...)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "31",
+    "group": "Client Vendeur - Personne Morale",
+    "text": "La personne morale est représentée par un tiers sans détenir de pouvoir ni de copie de la pièce d'identité du représentant légal",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "32",
+    "group": "Client Vendeur - Personne Morale",
+    "text": "La personne morale exerce une activité dans un secteur d'activité réputé à risque (BTP, sociétés de surveillance, formation professionnelle, secteur hôtelier, restauration rapide, cartes prépayées, rénovation énergétique, dépannage à domicile, cryptomonnaie....)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "38",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "Vous avez des difficultés pour identifier l'acquéreur  de l'opération envisagée",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France"
+  },
+  {
+    "id": "39",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "Vous avez des difficultés pour identifier le ou les bénéficiaires réels de l'opération",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "40",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "L'acquéreur fait l'objet d'une mesure de gel des avoirs",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France"
+  },
+  {
+    "id": "41",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "L'acquéreur réside dans un pays situé en zone de guerre ou figurant sur liste noire du GAFI (voir Annexe 4 du Livret des bonnes pratiques LAB/FT). ",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France"
+  },
+  {
+    "id": "42",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "L'acquéreur réside dans un pays figurant sur liste grise du GAFI (voir Annexe 4 du Livret des bonnes pratiques LAB/FT)",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "43",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "L'acquéreur réside dans un pays à fiscalité privilégiée (ex Suisse, Lischtenstien...).",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "44",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "L'acquéreur exerce une activité dans un secteur d'activité réputé à risque (BTP, sociétés de surveillance, formation professionnelle, secteur hôtelier, restauration rapide, cartes prépayées, rénovation énergétique, dépannage à domicile, cryptomonnaie....)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "45",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "Vous n'avez jamais vu physiquement l'acquéreur aux fins de l’identifier",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "46",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "L'acquéreur est représenté par un tiers sans détenir de pouvoir ni de copie de la pièce d'identité de l'acquéreur ou du vendeur",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "47",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "Il existe des liens entre l'acquéreur et le vendeur (parenté, amical, professionnel etc.)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "48",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "L'acquéreur est une personne politiquement exposée (PPE), qu'elle ait été en fonction ou qu'elle le soit",
+    "score": 2,
+    "advice": ""
+  },
+  {
+    "id": "49",
+    "group": "Client Acquéreur - Personne Physique",
+    "text": "L'acquéreur achète le bien sans l'avoir visité \"physiquement\"",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "53",
+    "group": "Client Acquéreur - Personne Morale",
+    "text": "Vous avez des difficultés pour identifier le/les Bénéficiaire(s) Effectif(s)",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "54",
+    "group": "Client Acquéreur - Personne Morale",
+    "text": "Vous avez des difficultés pour identifier le ou les bénéficiaires réels de l'opération",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "55",
+    "group": "Client Acquéreur - Personne Morale",
+    "text": "Vous avez des difficultés pour identifier le représentant légal de la persone morale (acquéreur ou vendeur)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "56",
+    "group": "Client Acquéreur - Personne Morale",
+    "text": "Le représentant légal ou au moins l'un des Bénéficiaire Effectif fait l'objet d'une mesure de gel des avoirs",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France"
+  },
+  {
+    "id": "57",
+    "group": "Client Acquéreur - Personne Morale",
+    "text": "La personne morale, son représentant légal et/ou le/les Bénéficiaire(s) Effectif(s) résident dans un pays situé en zone de guerre ou figurant sur liste  noire  du GAFI (voir Annexe 4 du Livret des bonnes pratiques LAB/FT). ",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France"
+  },
+  {
+    "id": "58",
+    "group": "Client Acquéreur - Personne Morale",
+    "text": "La personne morale, son représentant légal et/ou le/les Bénéficiaire(s) Effectif(s) résident dans un pays figurant sur liste grise du GAFI (voir Annexe 4 du Livret des bonnes pratiques LAB/FT)",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "59",
+    "group": "Client Acquéreur - Personne Morale",
+    "text": "La personne morale, son représentant légal et/ou le/les Bénéficiaire(s) Effectif(s) résident dans un pays à fiscalité privilégiée (ex. Suisse, Lischtenstien...)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "60",
+    "group": "Client Acquéreur - Personne Morale",
+    "text": "La personne morale est représentée par un tiers sans détenir de pouvoir ni de copie de la pièce d'identité du représentant légal",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "61",
+    "group": "Client Acquéreur - Personne Morale",
+    "text": "La personne morale exerce une activité dans un secteur d'activité réputé à risque (BTP, sociétés de surveillance, formation professionnelle, secteur hôtelier, restauration rapide, cartes prépayées, rénovation énergétique, dépannage à domicile, cryptomonnaie....)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "68",
+    "group": "Modalités de l'opération ",
+    "text": "Vous avez des difficultés pour obtenir des informations sur l’objet et la nature de la relation d’affaires",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "69",
+    "group": "Modalités de l'opération ",
+    "text": "L'opération envisagée implique plusieurs intermédiaires ou sociétés complexes",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "70",
+    "group": "Modalités de l'opération ",
+    "text": "Le prix de vente est anormalement élevé, minoré ou manifestement déséquilibré (il existe une discordance importante entre l’estimation du bien et sa valeur réelle)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "71",
+    "group": "Modalités de l'opération ",
+    "text": "L'acquéreur ne procède à aucune négociation sur le prix du bien",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "72",
+    "group": "Modalités de l'opération ",
+    "text": "L'acquéreur ou le vendeur se substitue au moment de la signature de l'acte",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "73",
+    "group": "Modalités de l'opération ",
+    "text": "Il existe un déséquilibre entre l’opération envisagée, le patrimoine, le revenu et l’activité de l'acquéreur",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "74",
+    "group": "Modalités de l'opération ",
+    "text": "L'achat du bien s'inscrit dans une succession d'achats ou ventes sucessifs dans un temps bref",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "78",
+    "group": "Caractéristiques géographiques du bien ",
+    "text": "Le bien est situé dans une zone à risque telle que la Corse, la Côte d'Azur, Paris, DROM-COM (Départements et Régions d'outre-mer et Collectivités d'outre mer)…",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "79",
+    "group": "Caractéristiques géographiques du bien ",
+    "text": "Le bien est un bien de prestige :\n- Paris = montant ≥ à 1 500 000€\n- Var et Alpes-Maritimes = montant ≥ à 1 000 000€\n- Ile-de-France (hors Paris) = montant ≥ à  800 000€\n- Pour le reste de la France = montant ≥ à 600 000€",
+    "score": 2,
+    "advice": ""
+  },
+  {
+    "id": "83",
+    "group": "Financement de l'opération ",
+    "text": "Achat d'un bien avec versement du prix et/ou des honoraires de transaction en tout ou partie en espèces (cash) ou via des fonds issus de la vente de cryptoactifs",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France"
+  },
+  {
+    "id": "84",
+    "group": "Financement de l'opération ",
+    "text": "Location d'un bien notamment avec versements en espèces",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "85",
+    "group": "Financement de l'opération ",
+    "text": "L'origine des fonds est inconnue",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "86",
+    "group": "Financement de l'opération ",
+    "text": "Les fonds proviennent d'une banque située dans un pays situé en zone de guerre ou figurant sur la liste noire (voir Annexe 4 du Livret des bonnes pratiques LAB/FT)",
+    "score": 3,
+    "advice": "Au titre de la vigilance renforcée, vous devez mettre un terme immédiat à la relation d'affaires et effectuer un signalement détaillé au Correspondant TRACFIN I@D France"
+  },
+  {
+    "id": "87",
+    "group": "Financement de l'opération ",
+    "text": "Les fonds proviennent d'une banque située dans un pays de la liste grise GAFI (voir Annexe 4 du Livret des bonnes pratiques LAB/FT)",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "88",
+    "group": "Financement de l'opération ",
+    "text": "Les fonds proviennent d'une banque située hors UE ou dans un pays fiscalité privilégiée",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "89",
+    "group": "Financement de l'opération ",
+    "text": "Le paiement provient d’un tiers sans justification du lien juridique qui pourrait légitimer cette intervention au profit du client",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "90",
+    "group": "Financement de l'opération ",
+    "text": "Le vendeur demande que le versement des sommes qui lui sont dues soit effectué à une tierce personne",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "91",
+    "group": "Financement de l'opération ",
+    "text": "L'acquéreur a recours à un montage financier complexe (fonds provenant de plusieurs comptes bancaires, intervention de plusieurs intermédiaires...)",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "95",
+    "group": "Mesures de vigilance",
+    "text": "Les documents produits (ex : papiers d’identité, k-bis) sont volés ou faux",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "96",
+    "group": "Mesures de vigilance",
+    "text": "L’identité d’une personne physique ou morale est usurpée",
+    "score": 2,
+    "advice": "Mettre en place l'une des mesures de vigilance complémentaire détaillée dans le Livret des bonnes pratiques LAB-FT"
+  },
+  {
+    "id": "97",
+    "group": "Mesures de vigilance",
+    "text": "Difficultés ou impossibilité d’obtenir des informations",
+    "score": 1,
+    "advice": ""
+  },
+  {
+    "id": "98",
+    "group": "Mesures de vigilance",
+    "text": "L’absence de réponse aux questions",
+    "score": 1,
+    "advice": ""
+  }
+]
