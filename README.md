@@ -17,3 +17,5 @@ Accueil → Lien de mon site → Rechercher mes biens → vérifier et sélectio
 Worker `/api/import-site` : HTML public HTTPS, JSON-LD immobilier, liens du même domaine, 9 pages maximum / 60 résultats. Aucune connexion ni contournement des sites protégés ; pas de rendu JavaScript. Les résultats ne garantissent pas un inventaire exhaustif ni l'appartenance au conseiller. Les redirections nécessitent l'adresse finale.
 Dossiers sélectionnés persistés en localStorage, clé `tribu-cockpit-site-import-test-v1`, sans données vendeur déduites. Édition/suppression également enregistrées ; pas de synchronisation entre appareils. Aucune écriture en production.
 Vérification : `node import-check.mjs`.
+
+Adaptateur iad : page /conseiller-immobilier/<identifiant>, extraction des cartes « Mes biens disponibles » uniquement. Aucun plafond à 60 pour cette page ; comparaison avec le total annoncé, avertissement si incomplet. Ventes et locations distinguées (loyer séparé du prix de vente). Vérifié sur Guillaume Roque : 105 cartes dont 2 locations au 26/09/2026.
